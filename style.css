@@ -1,0 +1,134 @@
+:root{
+    --purple: #CD57FF;
+    --light-black: #4E424C;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+    padding: 20px 0;
+    margin-bottom: 28px;
+    font-size: 16px;
+}
+
+nav .navigation-page ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--purple);
+}
+
+a:hover{
+    color: var(--light-black);
+}
+
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 340px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    gap: 58px;
+    box-shadow: 0px 35px 44px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    gap: 10px; 
+    padding-top: 104px;
+}
+
+.profil p.address, p.role{
+    font-weight: light;
+}
+
+.discuss-info{
+    display: flex;
+    gap: 39px;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom: 94px;
+}
+
+.question-info, .done-info, .pending-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7E4FF;
+    padding: 40px 50px;
+    border-radius: 8px;
+}
+
+.discuss-info{
+    color: var(--purple);
+}
+
+.discuss-info span{
+    font-weight: bolder;
+}
+
+aside{
+    display: flex;
+    flex-grow: 1;
+    font-size: 20px;
+}
+
+.side-features-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: start;
+    height: 100%;
+}
+
+.side-features-navigation .profil-navigation{
+    width: 100%;
+    display: flex;
+    background-color: #F7E4FF;
+}
+
+.profil-navigation, .question-navigation, .done-question-navigation, .pending-navigation{
+    padding: 10px 105px 10px 10px;
+    border-radius: 10px;
+}
+
+.side-features-navigation a{
+    text-decoration: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profil-navigation a{
+    color: var(--purple);
+}
