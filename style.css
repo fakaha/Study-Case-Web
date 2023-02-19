@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-
 .container{
     width: 85%;
     margin: auto;
@@ -36,7 +35,7 @@ ul li a{
     color: var(--purple);
 }
 
-a:hover{
+a.home-navigation{
     color: var(--light-black);
 }
 
@@ -139,14 +138,8 @@ aside{
 
 @media screen and (max-width:768px) {
 
-    /* nav{ */
-        /* margin: 42px auto 28px auto; */
-        /* margin-left: 0; */
-        /* margin-right: 0; */
-    /* } */
-
     nav .navigation-page ul{
-        gap: 10px; /* 20px -> 10px */
+        gap: 10px;
     }
 
     main{
@@ -157,7 +150,6 @@ aside{
 
     article{
         width: 100%;
-        /* margin: auto; */
     }
 
     .discuss-info{
@@ -170,7 +162,6 @@ aside{
 
     aside{
         width: 100%;
-        /* margin: auto; */
     }
 
     .side-features-navigation{
