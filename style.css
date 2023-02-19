@@ -140,7 +140,7 @@ aside{
 @media screen and (max-width:768px) {
 
     nav{
-        margin: auto;
+        margin: 42px auto 28px auto;
     }
 
     nav .navigation-page ul{
