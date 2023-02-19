@@ -152,11 +152,12 @@ aside{
     main{
         flex-wrap: wrap;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     article{
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
     }
 
     .discuss-info{
@@ -167,12 +168,12 @@ aside{
         width: 50%;
     }
 
-    /* .side-features-navigation{
-
-    } */
-
     aside{
         width: 100%;
+        /* margin: auto; */
+    }
+
+    .side-features-navigation{
         margin: auto;
     }
 }
