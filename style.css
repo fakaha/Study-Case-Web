@@ -139,6 +139,11 @@ aside{
 
 @media screen and (max-width:768px) {
 
+    nav{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     nav .navigation-page ul{
         gap: 20px;
     }
