@@ -152,6 +152,7 @@ aside{
         flex-wrap: wrap;
         flex-direction: column-reverse;
         align-items: center;
+        gap: 15px;
     }
 
     article{
