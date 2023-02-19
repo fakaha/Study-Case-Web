@@ -207,6 +207,7 @@ aside{
     .list-question{
         flex-direction: column;
         width: 100%;
+        box-shadow: 0px 35px 44px rgba(0, 0, 0, 0.3);
     }
 
     .box-question{
