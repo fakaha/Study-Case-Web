@@ -78,6 +78,10 @@ button.new-question-button{
     padding: 48px;
 }
 
+.question-photo-mobile{
+    display: none;
+}
+
 .box-question{
     display: flex;
     flex-direction: column;
@@ -158,7 +162,7 @@ aside{
     border-radius: 8px;
 }
 
-.side-features-navigation .profil-navigation{
+.side-features-navigation .question-navigation{
     width: 100%;
     display: flex;
     background-color: #F7E4FF;
@@ -197,6 +201,26 @@ aside{
 
     article{
         width: 100%;
+    }
+
+    .list-question{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box-question{
+        gap: 10px;
+    }
+
+    .question-photo-desktop{
+        display: none;
+    }
+    .question-photo-mobile{
+        display: block;
+    }
+
+    .footer-question{
+        flex-direction: column;
     }
 
     aside{

@@ -1,7 +1,7 @@
 :root{
     --purple: #CD57FF;
     --light-black: #4E424C;
-    --light-gey: #797979;
+    --light-grey: #797979;
 }
 
 *{
@@ -72,6 +72,10 @@ article{
     font-weight: light;
 }
 
+p.address, p.role{
+    color: var(--light-grey);
+}
+
 .discuss-info{
     display: flex;
     gap: 39px;
@@ -129,7 +133,7 @@ aside{
     display: flex;
     gap: 15px;
     align-items: center;
-    color: var(--light-black);
+    color: var(--light-grey);
 }
 
 .profil-navigation a{
