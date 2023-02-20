@@ -111,6 +111,10 @@ button.new-question-button{
     gap: 9px;
 }
 
+.user-question a{
+    text-decoration: none;
+}
+
 .question-title{
     font-size: 28px;
     font-weight: bolder;
