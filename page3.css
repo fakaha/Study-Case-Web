@@ -49,7 +49,6 @@ a.home-navigation{
 
 main{
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     margin-bottom: 115px;
 }
@@ -181,14 +180,32 @@ article{
     }
 
     .box-question{
-        gap: 10px;
-    }
-
-    .question-photo-desktop{
-        display: none;
+        gap: 24px;
+        padding: 48px;
     }
 
     .footer-question{
         flex-direction: column;
+        align-items:start;
     }
+
+    .hashtag p{   
+        padding:0;
+        border-radius: 0;
+    }
+
+    .box-answer{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .list-answer{
+        padding: 48px;
+    }
+
+    .user-answer{
+        font-size: 18px;
+    }
+
 }
