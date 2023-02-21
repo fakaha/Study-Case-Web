@@ -68,10 +68,6 @@ article{
     justify-content: end;
 }
 
-.question-photo-mobile{
-    /* display: none; */
-}
-
 .box-question{
     display: flex;
     flex-direction: column;
@@ -174,50 +170,25 @@ article{
 
 /* RESPONSIVE */
 
-/* @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
 
     nav .navigation-page ul{
         gap: 10px;
-    }
-
-    main{
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 25px;
     }
 
     article{
         width: 100%;
     }
 
-    .list-question{
-        flex-direction: column;
-        width: 100%;
-        box-shadow: 0px 35px 30px rgba(0, 0, 0, 0.3);
-    }
-
     .box-question{
-
         gap: 10px;
     }
 
     .question-photo-desktop{
         display: none;
     }
-    .question-photo-mobile{
-        display: block;
-    }
 
     .footer-question{
         flex-direction: column;
     }
-
-    aside{
-        width: 100%;
-    }
-
-    .side-features-navigation{
-        margin: auto;
-    }
-} */
+}
